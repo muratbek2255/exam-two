@@ -116,8 +116,8 @@ def office_money():
     return f"Общий заработок персонала - {total_money}"
 def vyvod():
     total = office_money()
-    for person in personal:
-        print(f'ID - {person.id}, Name - {person.name} Salary - {person.salary} Perfomance - {person.KPD()}')
+    for worker in personal:
+        print(f'ID - {worker.id}, Name - {worker.name} Salary - {worker.salary} Perfomance - {worker.KPD()}')
     return total
 vyvod()
 
