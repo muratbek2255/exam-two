@@ -117,10 +117,7 @@ def office_money():
 def vyvod():
     total = office_money()
     for person in personal:
-        print(
-            f'ID - {person.id}, Name - {person.name} Salary - {person.salary} Perfomance - {person.KPD()}',
-            end="\n"
-        )
+        print(f'ID - {person.id}, Name - {person.name} Salary - {person.salary} Perfomance - {person.KPD()}')
     return total
 vyvod()
 
