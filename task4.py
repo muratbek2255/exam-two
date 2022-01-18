@@ -5,7 +5,7 @@ def func(*args):
     for i in args:
         if isinstance(i, numbers.Number):
             return result
-    return result
+
 
 
 
